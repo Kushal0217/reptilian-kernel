@@ -1108,7 +1108,7 @@ static int __ref kernel_init(void *unused)
 
 	system_state = SYSTEM_RUNNING;
 	numa_default_policy();
-	printk(KERN_EMERG "\n##### Kushal Gaddam(UFID: 9497-7301) I am going to India#####\n");
+	printk(KERN_EMERG "\n##### Kushal Gaddam(UFID: 9497-7301) I am going to India #####\n");
 	rcu_end_inkernel_boot();
 
 	if (ramdisk_execute_command) {
